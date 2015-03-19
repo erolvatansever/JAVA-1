@@ -5,13 +5,13 @@
   <Employee type="permanent">
         <Name>Hasan</Name>
         <Id>3674</Id>
-        <Age>25</Age>
+        <Age>34</Age>
    </Employee>
 
   <Employee type="contract">
-        <Name>John</Name>
+        <Name>Robin</Name>
         <Id>3675</Id>
-        <Age>29</Age>
+        <Age>25</Age>
     </Employee>
 
   <Employee type="permanent">
