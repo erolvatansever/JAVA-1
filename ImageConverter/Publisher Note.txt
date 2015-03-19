@@ -1,0 +1,4 @@
+-Converted image string is saving to "Result" folder.
+-Initial Image is hold in "Image" folder.
+
+Hasan Vatansever.
