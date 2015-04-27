@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import org.apache.commons.codec.binary.Base64;
 
-public class Converter {//program başlangıcı
+public class Converter {//program begins
 
     public static void main(String[] args) {
 
@@ -45,4 +45,4 @@ public class Converter {//program başlangıcı
             System.err.println(e);
         }
     }
-}//programın sonu
+}//programın ends
