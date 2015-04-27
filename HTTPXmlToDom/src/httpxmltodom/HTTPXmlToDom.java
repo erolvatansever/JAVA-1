@@ -17,7 +17,7 @@ import org.w3c.dom.NodeList;
 
 /**
  *
- * @author Hasan & Erol & Recep & Alaattin & Muradiye 
+ * @author Hasan & Erol & Recep & Alaattin & Muradiye
  */
 public class HTTPXmlToDom {
 
@@ -30,6 +30,18 @@ public class HTTPXmlToDom {
     }
 
     private void start() throws Exception {
+        URL url = new URL("http://www.w3schools.com/xml/note.xml");
+        URLConnection connection = url.openConnection();
+
+        Document doc = parseXML(connection.getInputStream());
+        NodeList descNodes = doc.getElementsByTagName("note");
+
+        for (int i = 0; i < descNodes.getLength(); i++) {
+            System.out.println(descNodes.item(i).getTextContent());
+        }
+    }
+
+    private void stop() throws Exception {
         URL url = new URL("http://www.w3schools.com/xml/note.xml");
         URLConnection connection = url.openConnection();
 
