@@ -52,6 +52,20 @@ public class HTTPXmlToDom {
             System.out.println(descNodes.item(i).getTextContent());
         }
     }
+    
+    private void cancel() throws Exception {
+        URL url = new URL("http://www.w3schools.com/xml/note.xml");
+        URLConnection connection = url.openConnection();
+
+        Document doc = parseXML(connection.getInputStream());
+        NodeList descNodes = doc.getElementsByTagName("note");
+
+        for (int i = 0; i < descNodes.getLength(); i++) {
+            System.out.println(descNodes.item(i).getTextContent());
+        }
+    }
+    
+    
 
     private Document parseXML(InputStream stream)
             throws Exception {
