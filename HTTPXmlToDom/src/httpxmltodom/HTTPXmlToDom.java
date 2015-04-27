@@ -28,7 +28,10 @@ public class HTTPXmlToDom {
             e.printStackTrace();
         }
     }
+    
+     private void Am() throws Exception {}
 
+     
     private void start() throws Exception {
         URL url = new URL("http://www.w3schools.com/xml/note.xml");
         URLConnection connection = url.openConnection();
