@@ -17,7 +17,7 @@ import org.w3c.dom.NodeList;
 
 /**
  *
- * @author Hasan
+ * @author Hasan & Erol
  */
 public class HTTPXmlToDom {
 
