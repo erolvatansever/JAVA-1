@@ -47,8 +47,3 @@ public class Converter {
                 System.err.println(e);
             }
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> parent of 501ad44... Revert "yazar commit"
